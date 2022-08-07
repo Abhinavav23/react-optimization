@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { memo } from 'react'
 
-export const Example1 = () => {
+const Example1 = () => {
+  console.log('rendering Example1');
   return (
     <>
         <h2 className='test'>Example1</h2>
-        <section>body</section>
     </>
   )
 }
 
+export default memo(Example1)
+// undefined
+// undefined 
+
+
+
 // React.createElement('div', {className: 'test'}, reac)
+// memo is an HOC

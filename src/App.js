@@ -1,12 +1,16 @@
 import { Example1 } from "./Components/Example1";
+import { ParentExample } from "./Components/ParentExample";
+import { StateExample } from "./Components/states/StateExample";
 
 function App() {
-  console.log(Example1());
-  console.log(<Example1 name='abhinav'/>);
+  // console.log(Example1());
+  // console.log(<Example1 name='abhinav'/>);
   return (
     <div className="App">
       <header className="App-header">
-        <Example1/>
+        {/* <Example1/> */}
+        {/* <StateExample/> */}
+        <ParentExample/>
       </header>
     </div>
   );
