@@ -1,6 +1,8 @@
 import { Example1 } from "./Components/Example1";
 import { ParentExample } from "./Components/ParentExample";
 import { StateExample } from "./Components/states/StateExample";
+import { ParentCallBack } from "./Components/UseCallBack/ParentCallBack";
+import { Parent } from "./Components/UseMemo/Parent";
 
 function App() {
   // console.log(Example1());
@@ -10,7 +12,9 @@ function App() {
       <header className="App-header">
         {/* <Example1/> */}
         {/* <StateExample/> */}
-        <ParentExample/>
+        {/* <ParentExample/> */}
+        {/* <Parent/> */}
+        <ParentCallBack/>
       </header>
     </div>
   );

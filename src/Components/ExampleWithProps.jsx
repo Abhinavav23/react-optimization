@@ -32,7 +32,6 @@ export default memo(ExampleWithProps);
 let a = 'abhinav'
 let b = 'abhinav'
 
-
 // for all ref types
 let obj1 = {
     name: 'abhinav'
@@ -42,8 +41,8 @@ let obj2 = {
     name: 'abhinav'
 }
 
-console.log(a===b); //true
+// console.log(a===b); //true --->compoennt wont rerender
 
-console.log(obj1 === obj2); //false
+// console.log(obj1 === obj2); //false ---->component will rerender
 
 // because it checks for ref not value
