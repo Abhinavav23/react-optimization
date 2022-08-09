@@ -10,7 +10,12 @@ export const ParentCallBack = () => {
     // usecallback memoizes the whole function but 
     // useMemo memoizes the return value from the function
     const increase = useCallback((number) => {
-        setCount(count+number);
+        setCount((prev) => prev+number);
+        console.log('calling');
+        console.log('count', count);
+        // setCount(count+number);
+        // fetch(`https://abhcj/${id}`)
+
     }, [])
 
     console.log('rendering ParentCallBack comp');

@@ -14,6 +14,10 @@ export const Parent = () => {
         return userInfo
     },[userName])
 
+    // try to pass an array as props with static values
+    // pass an array of objects 
+    // pass an aray of dependant objects
+    
     console.log('redering Parent');
   return (
    <>
@@ -29,3 +33,7 @@ export const Parent = () => {
 
 // let a = 10;
 // a=20
+
+function test(){
+    let a = 10;
+}

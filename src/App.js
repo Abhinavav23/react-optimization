@@ -1,3 +1,4 @@
+import { BatchingExample } from "./Components/BatchingExample";
 import { Example1 } from "./Components/Example1";
 import { ParentExample } from "./Components/ParentExample";
 import { StateExample } from "./Components/states/StateExample";
@@ -14,7 +15,8 @@ function App() {
         {/* <StateExample/> */}
         {/* <ParentExample/> */}
         {/* <Parent/> */}
-        <ParentCallBack/>
+        {/* <ParentCallBack/> */}
+        <BatchingExample/>
       </header>
     </div>
   );
